@@ -1,0 +1,2 @@
+--legacy-peer-deps
+uses all the versions of react and helps to bypass the strict check of versions
