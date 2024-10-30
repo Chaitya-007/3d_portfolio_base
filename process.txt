@@ -1,2 +1,48 @@
 --legacy-peer-deps
 uses all the versions of react and helps to bypass the strict check of versions
+
+display : inline-block
+height aur width set kar sakte hai
+
+position : static, absolute, relative, fixed, sticky
+by default => static 
+
+relative to its normal position
+relative =>
+top, bottom, left , right can be set
+
+absolute to its parent element
+
+fixed => uus position par fix hojayega
+while making chat or navbar
+
+sticky => while making navbars, chipak jayega
+
+box-size => border-box 
+> box element ki size fix kar deta hai
+
+flex
+flex-direction  : row, column, row-reverse, column-reverse
+justify content : center, flex-start, flex-end,
+                    space-evenly, space-between,  space-around
+
+align-items: center, flex-start, flex-end,(vertically),
+                    space-evenly, space-between, space-around
+
+
+
+flex-wrap : wrap; for mobile responsive
+flex-wrap : wrap-reverse
+flex-wrap: nowrap
+
+for items
+order : 4 (jiska order jyaada rahega wo sabse akhir mai rahega)
+
+flex-grow
+individual item ki size badhana chahte ho
+by default => 1
+
+flex-shrink
+individual item ki size kam karna chahte ho
+by  default => 1
+
