@@ -24,7 +24,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-black text-[18px] font-bold cursor-pointer flex">
             Chaitya&nbsp;<span className="sm:block hidden">| Dream Works</span>
           </p>
         </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center ">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -56,7 +56,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 ri' mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className="list-none flex justify-end items-start flex-col gap-4">
+            <ul className="list-none flex justify-between items-start flex-col gap-4">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
