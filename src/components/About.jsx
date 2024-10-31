@@ -31,13 +31,13 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="bg-blue-400">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] bg-green-500"
       >
         I am a software developer with a passion for building web applications
         and exploring new technologies. I have experience with JavaScript,
@@ -45,7 +45,7 @@ const About = () => {
         things and improve my skills.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 bg-blue-500">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
